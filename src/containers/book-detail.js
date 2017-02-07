@@ -7,9 +7,11 @@ class BookDetail extends Component{
             return <div>Select a book to get started!</div>;
         }
         return (
-            <div>
+            <div className="col-sm-8">
                 <h3>Details for:</h3>
+                <div><img src= {this.props.book.img} alt=""/></div>
                 <div>Title: {this.props.book.title}</div>
+                <div>Author: {this.props.book.author}</div>
                 <div>Pages: {this.props.book.pages}</div>
             </div>
         );
