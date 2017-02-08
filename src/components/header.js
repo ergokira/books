@@ -3,7 +3,11 @@ import React from 'react';
 const Header = () => {
 
     return (
-        <h1>Books Gallery Web App</h1>
+        <div className="col-sm-12">
+            <header>
+                <h1>Books Gallery Web App</h1>
+            </header>
+        </div>
     );
 };
 

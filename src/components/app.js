@@ -7,9 +7,13 @@ export default class App extends Component {
   render() {
     return (
       <div className="container">
-        <Header />
-        <BookList />
-        <BookDetail />
+        <div className="row">
+          <Header />
+        </div>
+        <div className="row">
+          <BookList />
+          <BookDetail />
+        </div>
       </div>
     );
   }
