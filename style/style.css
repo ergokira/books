@@ -1,0 +1,48 @@
+header h1{
+    margin: 30px 0 30px 0;
+    padding: 15px;
+    text-align: center;
+}
+
+.container h1, .container h5{
+    color: #26a69a;
+}
+
+.book-list h3, .book-detail h3{
+    margin-bottom: 40px;
+}
+
+.book-list h3{
+    text-align: center;
+}
+
+.book-list li:hover{
+    cursor: pointer;
+    background-color: #e3e3e3;
+    color: #26a69a;
+}
+
+.book-detail{
+    overflow: hidden;
+}
+
+.book-detail div{
+    overflow: hidden;
+    margin-bottom: 40px;
+}
+
+.book-detail .book-image{
+    float: left;
+    width: 250px;
+}
+
+.book-detail .book-description{
+    clear: both;
+}
+
+.book-default-message{
+    margin-top: 70px;
+    text-align: center;
+}
+
+
